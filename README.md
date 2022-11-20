@@ -8,6 +8,13 @@ Make an app in React.js that reads a JSON file and generates for each item, a ne
 
 ![App Screenshot](./public/screenshot.jpg)
 
+## Tech Stack
+
+**Client:** React, Next.js, TailwindCSS
+
+**Deploy:** Vercel
+
+
 ## Features
 
 - Dynamic Routes for each test fetching data from database
