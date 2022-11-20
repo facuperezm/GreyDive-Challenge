@@ -19,7 +19,7 @@ export default function Items({ data, idx }) {
               Escenario: {escenario}
             </h2>
             {preguntas.map((item, index) => (
-              <div className="border-b-2">
+              <div key={item.texto} className="border-b-2">
                 <div className="my-4">
                   <h2 className="text-xl font-semibold">Tarea {index + 1}:</h2>
                   <h3 className="text-xl font-semibold">{item.texto}</h3>
